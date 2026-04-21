@@ -1,0 +1,17 @@
+package exercicio1oo.classes;
+
+import java.util.Scanner;
+
+public class TestaCircuo {
+    static void main(){
+
+        Scanner leitor = new Scanner(System.in);
+        Circulo novo = new Circulo();
+        System.out.println("Qual o raio do circulo: " );
+        novo.raio = leitor.nextDouble();
+
+        System.out.println("O raio do circuo é :" + novo.raio);
+
+
+    }
+}
