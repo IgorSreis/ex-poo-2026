@@ -2,7 +2,7 @@ package exercicio1oo.classes;
 
 import java.util.Scanner;
 
-public class TestaCircuo {
+public class TestaCirculo {
     static void main(){
 
         Scanner leitor = new Scanner(System.in);
