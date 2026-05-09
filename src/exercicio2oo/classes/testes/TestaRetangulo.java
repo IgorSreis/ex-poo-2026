@@ -1,6 +1,6 @@
-package exercicio2oo.testes;
+package exercicio2oo.classes.testes;
 
-import exercicio2oo.classes.Retangulo;
+import exercicio2oo.classes.classes.Retangulo;
 
 import java.util.Scanner;
 

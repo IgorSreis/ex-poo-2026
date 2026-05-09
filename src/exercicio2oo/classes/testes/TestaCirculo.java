@@ -1,6 +1,6 @@
-package exercicio2oo.testes;
+package exercicio2oo.classes.testes;
 
-import exercicio2oo.classes.Circulo;
+import exercicio2oo.classes.classes.Circulo;
 
 import java.util.Scanner;
 

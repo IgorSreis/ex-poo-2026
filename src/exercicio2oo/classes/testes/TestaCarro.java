@@ -1,6 +1,6 @@
-package exercicio2oo.testes;
+package exercicio2oo.classes.testes;
 
-import exercicio2oo.classes.Carro;
+import exercicio2oo.classes.classes.Carro;
 
 import java.util.Scanner;
 
