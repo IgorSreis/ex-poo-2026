@@ -9,11 +9,10 @@ public class TestaCirculo {
 
         Scanner leitor = new Scanner(System.in);
         Circulo novo = new Circulo();
-        public double getRaio()
         System.out.println("Qual o raio do circulo: " );
-        novo.raio = leitor.nextDouble();
+        novo.setRaio(leitor.nextDouble());
 
-        System.out.println("O raio do circuo é :" + novo.raio);
+        System.out.println("O raio do circuo é :" + novo.getRaio());
 
 
     }

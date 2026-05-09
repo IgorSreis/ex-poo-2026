@@ -11,18 +11,18 @@ public class TestaCarro {
 
 
         System.out.println("Qual modelo do carro");
-        novo.modelo = leitor.nextLine();
+        novo.setModelo(leitor.nextLine());
         System.out.println("Qual a marca do carro");
-        novo.marca = leitor.nextLine();
+        novo.setMarca(leitor.nextLine());
         System.out.println("Qual ano do carro");
-        novo.ano = leitor.nextInt();
+        novo.setAno(leitor.nextInt());
         System.out.println("Qual velocidade do carro");
-        novo.velocidade = leitor.nextDouble();
+        novo.setVelocidade(leitor.nextDouble());
 
-        System.out.println("O modelo do carro é, "+ novo.modelo);
-        System.out.println("A marca do carro é, "+ novo.marca);
-        System.out.println("O ano do carro é, "+ novo.ano);
-        System.out.println("A velocidade do carro é, "+ novo.velocidade + " km/h");
+        System.out.println("O modelo do carro é, "+ novo.getModelo());
+        System.out.println("A marca do carro é, "+ novo.getMarca());
+        System.out.println("O ano do carro é, "+ novo.getAno());
+        System.out.println("A velocidade do carro é, "+ novo.getVelocidade() + " km/h");
 
 
     }
